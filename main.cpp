@@ -207,9 +207,9 @@ static void showSpendingByCategory(const vector<Expense>& expenses){
   }
   map<string, double> categoryTotals;
 
-  for (auto &item: expenses) {
+  for (auto &item: expenses)
     categoryTotals[item.category] += item.amount;
-  }
+
   cout << "\n### Spending by Category ###" << endl;
   cout << left << setw(25) << "Category" << setw(15) << "Total" << setw(10) << "Count" << endl;
   cout << string(50, '-') << endl;
