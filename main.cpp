@@ -433,8 +433,7 @@ int main() {
         saveBudget(budgets);
         return 0;
       default:
-        cout << "Invalid option. Please choose between numbers 1 to 7." << endl;
-
+        cout << "Invalid option. Please choose between numbers 1 to 10." << endl;
     }
   }
 
